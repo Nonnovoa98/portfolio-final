@@ -1,0 +1,203 @@
+
+
+body{
+    background-color: #131313 !important;
+    color: #fff !important;
+}
+.icono-nav{
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+}
+.pestaña:hover{
+    color: #1561F0 !important;
+    transition: .5s;
+}
+
+.padre-titulos{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #fff !important;
+    font-size: 5rem !important;
+    font-family: 'Unbounded', cursive;
+    padding: 0 20px;
+}
+.sub-port{
+    color: #1561F0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3rem;
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+}
+#subt{
+    padding: 0 20px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+}
+
+.about-img img{
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-text h2{
+    font-size: 3rem;
+    font-family: 'Source Code Pro', monospace;
+    color: #1561F0;
+    margin-top: 2rem;
+}
+
+.about-text p{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: 'Source Code Pro', monospace;
+    padding-right: 20px;
+}
+.tit-tecnologias{
+    padding: 4rem;
+    margin-top: 2rem;
+}
+.tit-tecnologias h2{
+    font-family: 'Source Code Pro', monospace;
+    color: #1561F0;
+    font-size: 3rem;
+}
+.padre-tecnos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+@media(max-width: 500px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .about-text{
+        padding: 0 15px;
+    }
+
+    .padre-tecnos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+    .tit-tecnologias{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logo-tecno img{
+    height: 10rem;
+    width: 10rem;
+}
+.footer{
+    background-color: #2b2b2b;
+    height: 150px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.wrapper ul{
+    list-style: none;
+}
+.wrapper ul li{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2.5px solid #1561F0;
+    float: left;
+    transition: all 0.5s ease;
+}
+.wrapper ul li .fa{
+    color: #1561F0;
+    margin-top: 0;
+}
+
+.modal-body{
+    background-color: #777;
+}
+
+#btn-contacto{
+    font-family: 'Source Code Pro', monospace;
+  }
+
+
+.btn-formulario{
+    margin-bottom: 16px;
+}
+
+
+/* formulario */
+
+
+.field {
+    margin-bottom: 10px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #2b2b2b;
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 2;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    background-color: #777;
+    color: #2b2b2b;
+    border: solid #2b2b2b 2px; 
+    border-radius: 5px;
+  }
+
+.btn-enviar.input :hover{
+    background-color: #2b2b2b;
+    color: #777;
+    transition: .3s;
+  }
+
+
+  .modal-content{
+    background-color: #2b2b2b !important;
+  }
+
+#staticBackdropLabel{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn-cerrar{
+    font-family: 'Source Code Pro', monospace;
+}

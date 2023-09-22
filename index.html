@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Unbounded:wght@500&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="./assets/layout-wtf.svg">
+
+    <style>
+        .banner-image{
+            background-image: url(./assets/Black\ and\ Gray\ Geometric\ Corporate\ Zoom\ Virtual\ Background\ .png);
+            background-size: cover;
+        }
+    </style>
+    <title>Julian Novoa</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container-fluid">
+          <a class=" icono" href="#"><i class="bi bi-layout-wtf icono-nav"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-underline">
+              <li class="nav-item">
+                <a class="nav-link text-light pestaña" aria-current="page" href="#id-portada">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pestaña" href="#about">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pestaña" href="#tecnologias">Tecnologias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pestaña" href="#Sigueme">Sigueme</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- termina navbar -->
+
+    <!-- portada -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" id="id-portada">
+        <div class="padre-titulos">
+            <div class="titulo-portada">
+                <h1>Hola, soy Julián Novoa</h1>
+                
+            </div>
+            <div class="subtitulo">
+                <h3 class="sub-port" id="subt">Desarrollador Web</h3>
+            </div>
+        </div>
+        
+    </div>
+    <!-- termina portada -->
+
+    <!-- seccion sobre mi -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets/923341c9-d9f5-4ce6-ac60-5823b90eba15.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Sobre mi</h2>
+            <p>Mi nombre es Julian Novoa, tengo 25 años.. durante la pandemia me di cuenta que la carrera que estaba estudiando en ese momento no me hacia sentir comodo del todo, no me iba mal, pero no me hacia sentir pleno. Ahi fue cuando descubrí el mundo de la programacion, desde el primer momento me encantó.. la infinidad de posibilades que trae de poder crear cosas a gusto de uno me fascinó, en ese momento supe que tenia que aprender a programar! Con todo el miedo del mundo, tomé coraje y di el paso.. y aqui estoy, actualmente cursando la carrera de programador en la Universidad, y un curso de desarrollo web. Orgullosamente aqui muestro mi primer portafolio, y todavia con todas las ganas de seguir aprendiendo.</p>
+        </div>
+    </section>
+    <!-- termina seccion sobre mi -->
+
+
+    <!-- seccion tecnologias -->
+    <section class="tecnologias" id="tecnologias">
+        <div class="tit-tecnologias">
+            <h2>Tecnologias</h2>
+        </div>
+        <div class="padre-tecnos">
+            <div class="logo-tecno">
+                <img src="./assets/html-5.png" alt="">
+            </div>
+            <div class="logo-tecno">
+                <img src="./assets/css.png" alt="">
+            </div>
+            <div class="logo-tecno">
+                <img src="./assets/js.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- termina seccion tecnologias -->
+
+    <!-- footer -->
+    <footer class="footer" id="Sigueme">
+        <div class="wrapper">
+            <ul>
+                <li class="facebook"><a href="https://www.facebook.com/julian.novoa.rg4l/">
+                    <i class="fa fa-facebook"aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="instagram"><a href="https://www.instagram.com/jln_novoa___/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li class="linkdin"><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+
+            <div class="btn-formulario">
+                <!-- Button trigger modal -->
+                <button id="btn-contacto" type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Contacto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="staticBackdropLabel">Dejame un mensaje</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <!-- formulario contacto -->
+                            <form class="form-contacto needs-validation" novalidate id="form">
+                                <div class="field">
+                                    <label for="Nombre">Nombre y apellido</label>
+                                    <input type="text" name="Nombre" id="Nombre" required>
+                                    <div class="valid-feedback">
+                                        Correcto.
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Este campo es obligatorio
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label for="Telefono">Telefono</label>
+                                    <input type="number" name="Telefono" id="Telefono" required>
+                                    <div class="valid-feedback">
+                                        Correcto.
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Este campo es obligatorio
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label for="Email">Email</label>
+                                    <input type="email" name="Email" id="Email" required>
+                                    <div class="valid-feedback">
+                                        Correcto.
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Este campo es obligatorio
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label for="Mensaje">Mensaje</label>
+                                    <input type="text" name="Mensaje" id="Mensaje">
+                                </div>
+                                <input class="btn-enviar btn-outline-primary" type="submit" id="button" value="Enviar" >
+                            </form>
+                                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                                <script type="text/javascript">emailjs.init('ElfQw5q7ja24_DCHz')</script>
+
+                                <!-- validaciones  -->
+                                <script>
+                                    (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+    // Función para validar el formulario
+    function validateForm() {
+    const nombre = document.getElementById('Nombre').value;
+    const telefono = document.getElementById('Telefono').value;
+    const email = document.getElementById('Email').value;
+
+    // Verifica si los campos obligatorios están completos
+    if (!nombre || !telefono || !email) {
+      return false; // Si falta algún campo requerido, el formulario no es válido
+    }
+
+    return true; // Si todos los campos requeridos están completos, el formulario es válido
+  }
+
+
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+                                </script>
+                                <!-- terminan validaciones -->
+
+                            <!-- termina formulario -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary btn-cerrar" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        
+    </footer>
+    <!-- termina footer -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
